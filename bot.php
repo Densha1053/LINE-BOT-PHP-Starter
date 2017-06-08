@@ -3,7 +3,7 @@ require(“vendor/autoload.php”);
 use \LINE\LINEBot\HTTPClient\CurlHTTPClient;
 use \LINE\LINEBot;
 
-require(“phpMQTT.php”);
+require(“MQTT.py”);
 
 $mqtt = new phpMQTT(“km1.io”, 1883, “phpMQTT Pub Example”); //เปลี่ยน www.yourmqttserver.com ไปที่ mqtt server ที่เราสมัครไว้นะครับ
 
