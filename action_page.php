@@ -1,1 +1,1 @@
-<?php echo $_GET["1"]; ?>
+<?php echo $_POST["1"]; ?>
