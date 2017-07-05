@@ -1,2 +1,1 @@
-<?php
-echo "Hello LINE BOT";
+<?php include_once("index.html") ?>
